@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>愛心</title>
+  <style>
+    .heart {
+      width: 100px;
+      height: 100px;
+      background-color: #ff00bb;
+      position: relative;
+      transform: rotate(45deg);
+      margin: 50px;
+    }
+    
+    .heart::before,
+    .heart::after {
+      content: '';
+      width: 100px;
+      height: 100px;
+      background-color: #ff00bb;
+      border-radius: 50%;
+      position: absolute;
+    }
+    
+    .heart::before {
+      top: -50px;
+      left: 0;
+    }
+    
+    .heart::after {
+      top: 0;
+      left: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="heart"></div>
+</body>
+</html>

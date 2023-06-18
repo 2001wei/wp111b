@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    color:#336699;
+}
+
+body {
+    margin: 20px 10%;
+}
+
+pre {
+    background-color: #eeeeee;
+    border:1px dotted #888888;
+    padding: 20px;
+    border-radius: 20px;
+}
+img {
+    display:block;
+    margin:auto;
+}
+a:link, a:visited {
+    background-color: #165edb;
+    color: #ffffff;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #165edb;
+  }
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    background-color: #1bb467;
+    border: none;
+    color: #ffffff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
